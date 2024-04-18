@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-section {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4rem;
+  padding-left: 40px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.3em;
+  justify-content: flex-end;
+}
+
+.navigation li {
+  margin-right: 100px;
+}
+
+.navigation a {
+  color: black;
+  font-family: 'Cardo', sans-serif;
+  text-decoration: none;
+}
+
+.main-content {
+  text-align: left;
+  margin-left: 45px;
+  max-width: 600px;
+  font-size: 1.3em;
+}
+
+.cta-container {
+  text-align: center;
+  max-width: 300px;
+}
+
+.cta-button {
+  border: 2px solid black;
+  background-color: white;
+  color: grey;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.review {
+  width: calc(33.33% - 20px);
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.coffee-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
