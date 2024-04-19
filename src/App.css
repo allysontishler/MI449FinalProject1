@@ -1,22 +1,23 @@
+/* App.css */
+body {
+  background: #FFFDF9;
+}
+
 .container {
   display: flex;
-  justify-content: space-between;
+  align-items: center; /* Center items horizontally */
 }
 
 .left-section {
-  flex: 1;
-  padding: 20px;
-}
-
-.right-section {
-  padding: 20px;
+  width: 100%; /* Take up full width */
+  margin-bottom: 20px; /* Add margin at the bottom */
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
   align-items: center;
+  width: 100%; /* Take up full width */
 }
 
 .logo {
@@ -29,11 +30,10 @@
   list-style-type: none;
   display: flex;
   font-size: 1.3em;
-  justify-content: flex-end;
 }
 
 .navigation li {
-  margin-right: 100px;
+  margin-right: 100px; /* Adjust spacing */
 }
 
 .navigation a {
@@ -52,6 +52,7 @@
 .cta-container {
   text-align: center;
   max-width: 300px;
+  color: #A68A64;
 }
 
 .cta-button {
@@ -68,25 +69,47 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
+  color: #333D29;
 }
 
 .review {
-  width: calc(33.33% - 20px);
+  width: 150px;
+  height: 250px;
   border: 1px solid black;
   padding: 20px;
-  margin-bottom: 20px;
+  padding-top: 0;
+  text-align: center;
+  font-size: 0.8em;
+  font: 'Cardo', sans-serif;
 }
 
-.coffee-images {
+.quotes {
+  width: 37%; 
+  text-align: left; 
+  margin-right: 150px;
+  font-size: 2.5em;
+  margin-top: -600px;
+}
+
+.quote-green {
+  color: #333D29;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.quote-brown {
+  color: #A68A64;
+  font-weight: bold;
+}
+
+
+.right-section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: flex-end; 
+  flex: 1; 
+  margin-left: 100px;
 }
 
-.coffee-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-size: cover;
-  background-position: center;
-}
+
