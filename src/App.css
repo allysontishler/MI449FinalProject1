@@ -95,11 +95,17 @@ body {
   color: #333D29;
   font-weight: bold;
   margin-bottom: 40px;
+  box-shadow: 5px 5px 10px rgba(51, 61, 41, 0.3);
+  padding: 20px;
+  border-radius: 50px;
 }
 
 .quote-brown {
   color: #A68A64;
   font-weight: bold;
+  box-shadow: 5px 5px 10px rgba(166, 138, 100, 0.3);
+  padding: 20px;
+  border-radius: 50px;
 }
 
 
